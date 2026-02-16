@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        color-scheme: light;
+    }
+
+    html {
+        font-family: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+    }
+
+    body {
+        background-color: #f8fafc;
+        color: #0f172a;
+    }
+}
+
+@layer components {
+    .saas-surface {
+        @apply bg-white/90 backdrop-blur border border-slate-200 shadow-sm rounded-2xl;
+    }
+
+    .saas-button {
+        @apply inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm font-semibold transition;
+    }
+
+    .saas-button-primary {
+        @apply saas-button bg-indigo-600 text-white hover:bg-indigo-700;
+    }
+
+    .saas-button-secondary {
+        @apply saas-button bg-slate-100 text-slate-700 hover:bg-slate-200;
+    }
+
+    .saas-input {
+        @apply w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700 shadow-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200;
+    }
+}
