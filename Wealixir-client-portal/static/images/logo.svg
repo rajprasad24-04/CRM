@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="160" height="40">
+  <!-- Icon circle -->
+  <circle cx="25" cy="25" r="22" fill="#2d5f8a"/>
+  <!-- W letter -->
+  <text x="25" y="32" font-family="Arial, sans-serif" font-size="22" font-weight="bold"
+        fill="white" text-anchor="middle">W</text>
+  <!-- Company name -->
+  <text x="58" y="20" font-family="Arial, sans-serif" font-size="17" font-weight="bold"
+        fill="#1e3a5f">Wealixir</text>
+  <text x="58" y="36" font-family="Arial, sans-serif" font-size="9"
+        fill="#5a7fa0" letter-spacing="1">FINANCIAL SERVICES</text>
+</svg>

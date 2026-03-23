@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"C:\\\\Users\\\\DELL\\\\Desktop\\\\Work\\\\Wealixir-crm-main\\\\database\\\\migrations\"\" -type f -name \"*.php \")",
+      "Bash(ls \"C:\\\\Users\\\\DELL\\\\Desktop\\\\Work\\\\Wealixir-integrated\"\" 2>/dev/null || dir \"C:UsersDELLDesktopWorkWealixir-integrated\"\")",
+      "Read(//c/Users/DELL/Desktop/Work/**)",
+      "Bash(unzip -o \"Wealixir-crm-main \\(1\\).zip\" -d \"_extract_crm\")",
+      "Bash(grep -E \"\\\\.\\(php|js|blade\\)$\")",
+      "Bash(find /c/Users/DELL/Desktop/Work/_extract_crm -name sidebar*)",
+      "Bash(rsync -a --exclude='vendor' --exclude='node_modules' --exclude='.git' --exclude='storage/app/public' /c/Users/DELL/Desktop/Work/_extract_crm/Wealixir-crm-main/ /c/Users/DELL/Desktop/Work/Wealixir-Onboarding/crm/)",
+      "Bash(python app.py)",
+      "Bash(pip install:*)",
+      "Bash(npm install:*)",
+      "Bash(where node:*)",
+      "Bash(ls:*)",
+      "Bash(uvicorn main:app --reload --port 8000)",
+      "Bash(cmd.exe /c \"node --version && npm --version\" 2>&1)",
+      "Bash(cmd.exe /c \"node --version\")",
+      "Bash(cmd.exe /c \"npm --version\")",
+      "Bash(cmd.exe /c \"where npm 2>&1\")",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/DELL/AppData/Roaming/**)",
+      "Bash(cmd.exe /c \"cd /d C:\\\\Users\\\\DELL\\\\Desktop\\\\Work\\\\Test\\\\Wealixir-client-portal\\\\frontend && npm install\" 2>&1)",
+      "Bash(venv/Scripts/python.exe app.py)",
+      "Bash(venv/../venv/Scripts/python.exe -m uvicorn main:app --reload --port 8000)",
+      "Bash(npm run:*)",
+      "Bash(venv/Scripts/pip install:*)",
+      "Bash(venv/Scripts/python.exe -m uvicorn backend.main:app --reload --port 8000)",
+      "Bash(\"C:/Users/DELL/Desktop/Work/Test/Wealixir-client-portal/venv/Scripts/python.exe\" -c \"import uvicorn; print\\(uvicorn.__version__\\)\")",
+      "Bash(\"C:/Users/DELL/Desktop/Work/Test/Wealixir-client-portal/venv/Scripts/pip.exe\" install:*)",
+      "Bash(\"C:/Users/DELL/Desktop/Work/Wealixir-client-portal/venv/Scripts/python.exe\" -c \"import uvicorn; print\\('ok'\\)\" 2>&1)",
+      "Bash(\"C:/Users/DELL/Desktop/Work/Wealixir-client-portal/venv/Scripts/python.exe\" -m uvicorn backend.main:app --reload --port 8000)",
+      "Bash(\"C:/Users/DELL/Desktop/Work/Wealixir-client-portal/venv/Scripts/python.exe\" -m uvicorn main:app --reload --port 8000)"
+    ]
+  }
+}
