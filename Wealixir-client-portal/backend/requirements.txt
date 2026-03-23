@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+starlette
+python-multipart
+python-dotenv
+pydantic[email]
+openpyxl
+fpdf2
+python-docx
+requests
+itsdangerous
